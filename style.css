@@ -1,0 +1,85 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#banner {
+    height: 90vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 0.315)), url('who.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.btn {
+    padding: 15px 30px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    border-radius: 60px;
+}
+
+.btn {
+    background-color: salmon;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn:hover {
+    border: 2px solid #fff;
+}
+
+section {
+    padding: 100px 0;
+}
+
+#about h3 {
+    font-size: 60px;
+    font-weight: 900;
+    color: salmon;
+}
+
+#services {
+    background-color: lightcoral;
+}
+
+.card-img-top {
+    width: 40%;
+}
+
+.card {
+    transition: all 0.4s ease;
+}
+
+.card:hover {
+    background-color:lightpink ;
+}
+
+.card:hover .card-text, .card:hover .card-title {
+    color: darkorchid;
+}
+
+#services .btn-brand:hover {
+    background-color: pink;
+    color: salmon;
+}
+
+.testimonials img {
+    width: 75px;
+    border-radius: 50%;
+}
+
+.testimonials {
+    border: 2px solid salmon;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.testimonials a {
+    color: palevioletred;
+}
+
+.navbar {
+    box-shadow: 0 0  5px pink;
+}
