@@ -5,7 +5,7 @@
 
 #banner {
     height: 90vh;
-    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 0.315)), url('who.jpg');
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.055), rgba(44, 42, 0, 0)), url('pink.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -82,4 +82,88 @@ section {
 
 .navbar {
     box-shadow: 0 0  5px pink;
+}
+
+#faq {
+    background-color: pink;
+}
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    background-color: hotpink;
+    border: none;
+    border-bottom: 1px solid salmon;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(207, 17, 80);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid plum;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: pink;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(221, 139, 203);
+    color: #fff;
+}
+
+.accordion-button:hover{
+    background-color: rgb(221, 139, 203);
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(221, 139, 203);
+}
+
+#cta {
+    height: 70vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0), rgba(44, 42, 0, 0)), url('cta.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#footer ul.list-unstyled li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: rgb(8, gree47, 8);
+
+}
+
+
+
+.btn-outline-light{
+    border-color: #fff;
+    color: #fff;
+    border-radius: 0;
+}
+
+@media screen and (max-width:767px) {
+    #about img {
+        height: 300px;
+        width: 300px;
+    }
+
+    #services .card {
+        margin-top: 20px;
+    }
+
+    section {
+        padding: 60px 20px;
+    }
 }
